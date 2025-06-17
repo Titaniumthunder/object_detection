@@ -17,12 +17,15 @@ This project uses **Ultralytics YOLOv8** with **OpenCV** to perform real-time ob
 
 It's recommended to use a virtual environment to isolate dependencies.
 
+
+In the above, Markdown sees all of that as one big code block — including the macOS commands.
+
+---
+
+### ✅ Correct Version:
+```markdown
 ### On Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
-
-python3 -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
