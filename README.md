@@ -8,3 +8,4 @@ It's recommended to use a virtual environment to keep dependencies isolated.
 ```bash
 python -m venv venv
 venv\Scripts\activate
+pip install -r requirements.txt
